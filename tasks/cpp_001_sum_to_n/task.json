@@ -1,0 +1,9 @@
+{
+  "id": "cpp_001_sum_to_n",
+  "language": "cpp",
+  "description": "sum_to_n(n) should include n itself (off-by-one in the loop)",
+  "build_commands": [
+    ["g++", "-std=c++17", "-Isrc", "-o", "test_bin", "src/mathutil.cpp", "tests/test_mathutil.cpp"]
+  ],
+  "test_command": ["./test_bin"]
+}

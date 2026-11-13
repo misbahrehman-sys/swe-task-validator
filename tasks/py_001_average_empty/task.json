@@ -1,0 +1,6 @@
+{
+  "id": "py_001_average_empty",
+  "language": "python",
+  "description": "average([]) should return 0.0 instead of raising ZeroDivisionError",
+  "test_command": ["python3", "-m", "unittest", "discover", "-s", "tests", "-t", "."]
+}

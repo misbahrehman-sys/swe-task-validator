@@ -1,0 +1,6 @@
+{
+  "id": "py_003_chunk_last_group",
+  "language": "python",
+  "description": "chunk() drops the last group when the list does not divide evenly",
+  "test_command": ["python3", "-m", "unittest", "discover", "-s", "tests", "-t", "."]
+}
